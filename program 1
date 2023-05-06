@@ -1,0 +1,25 @@
+<html>
+<body>
+<script>
+let a=10;
+let b=20;
+let c=20;
+function Add()
+{
+ let Sum=a+b+c;
+document.writeln("The sum of 3 values = "+Sum);
+ }
+ function Sub(){
+     if ((a<b)||((a-b-c)<0)){
+         document.writeln("The inputs are invalid");
+     }
+     else{
+          let Subtract=a-b-c;
+         document.writeln("The Subtraction of 3 values = "+ Subtract);
+   }
+     }
+Add();
+Sub();
+</script>
+</body>
+</html>
